@@ -4,6 +4,10 @@ import React from "react";
 
 class App extends React.Component {
 
+  componentDidMount(){
+    this.geraNumeros();
+  }
+
   constructor(props){
     super(props);
     this.state ={
