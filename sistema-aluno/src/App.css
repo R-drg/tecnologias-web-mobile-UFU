@@ -1,0 +1,40 @@
+table {
+  width: 100%;
+}
+
+.title{
+  font-size: 50px;
+}
+
+.container{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.table-div{
+  width: 70%;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+.table-head{
+  background-color: #ca3e47 !important;
+}
+
+tr:nth-child(even) 
+{background: #525252}
+
+tr:nth-child(odd) 
+{background: #414141}
+
+th,td{
+  text-align:center;
+  width:30px;
+  font-size: 20px;
+  padding: 0.5rem 2rem;
+}
