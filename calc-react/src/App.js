@@ -32,6 +32,7 @@ function App() {
                     res = numbers[0]*numbers[1]
                     break;
             }
+            setOperator(null)
             return setDisplay(res)
         }
         if(!isNaN(parseInt(e.target.value))){
